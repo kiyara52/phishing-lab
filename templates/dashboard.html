@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phishing Investigation Lab</title>
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+
+	<h1> Phishing Campaign Investigation</h1>
+
+	<div class="grid">
+
+	<div class="card">
+		<h2>Scenario</h2>
+		<p> Employees report account lockouts after clicking a suspicious email link</p>
+		<p> IT suspects a phishing campaign targeting internal users </p>
+	</div>
+
+	<div class="card">
+
+	<h2>Upload Email Header</h2>
+
+	<form action="/analyze" method="post">
+		<textarea name="header" placeholder="Paste suspicious email header here..."></textarea>
+		<br><br>
+		<button type="submit">Analyze Header</button>
+	</form>
+
+	</div>
+	</div>
+</div>	
+</body>
+<html>
